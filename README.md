@@ -18,7 +18,7 @@
 ## Документация
 
 Плагин доступен для исползования в Blueprints. Доступные виды турниров представлены компонентами:
-UPlayOffTournamentComponent и URRTournamentComponent
+UPlayOffTournamentComponent и URRTournamentComponent.
 
 #### PlayOffTournamentComponent
 
@@ -55,15 +55,15 @@ UPlayOffTournamentComponent и URRTournamentComponent
   
   ##### GetWinners
 
-  Возвращает список победителей на последнем законченном этапе
+  Возвращает список победителей на последнем законченном этапе.
   
   ##### GetWinnersByStageIndex
   
-  Возвращает список победителей этапа по индексу этого этапа
+  Возвращает список победителей этапа по индексу этого этапа.
   
   ##### GetCurrentStageMembers
   
-  Возвращает список участников текущего этапа. В него не попадают участиники с автоматической победой (При отсутствии соперника)
+  Возвращает список участников текущего этапа. В него не попадают участиники с автоматической победой, когда у низ нет соперника.
   
   ##### SetMemberStatus
   
@@ -72,11 +72,11 @@ UPlayOffTournamentComponent и URRTournamentComponent
   
   ##### RandomizeWinners
 
-  Выбирает победителей случайным образом на каждом этапе
+  Выбирает победителей случайным образом на каждом этапе.
   
   ##### PrintTournamentInfo
   
-  Пишет в лог информацию и матчах
+  Пишет в лог информацию и матчах.
   
   ##### SaveJson
   
