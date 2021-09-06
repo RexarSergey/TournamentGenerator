@@ -74,6 +74,10 @@ UPlayOffTournamentComponent и URRTournamentComponent
 
   Выбирает победителей случайным образом на каждом этапе
   
+  ##### PrintTournamentInfo
+  
+  Пишет в лог информацию и матчах
+  
   ##### SaveJson
   
   Сохраняет турнир в json-формате в папку Content основного проекта. Необходимо ввести название файла.
