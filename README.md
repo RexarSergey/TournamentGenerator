@@ -72,7 +72,11 @@ UPlayOffTournamentComponent и URRTournamentComponent
   
   ##### RandomizeWinners
 
-  Выбирает победителей случайным образом на каждом этапе
+  Выбирает победителей случайным образом на каждом этапе.
+  
+  ##### PrintTournamentInfo
+  
+  Пишет в лог информацию о матчах турнира.
   
   ##### SaveJson
   
