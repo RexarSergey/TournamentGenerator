@@ -17,7 +17,7 @@
 
 ## Документация
 
-Плагин доступен для исползования в Blueprints. Доступные виды турнира представлены компонентами:
+Плагин доступен для исползования в Blueprints. Доступные виды турниров представлены компонентами:
 UPlayOffTournamentComponent и URRTournamentComponent
 
 #### PlayOffTournamentComponent
