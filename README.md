@@ -72,11 +72,7 @@ UPlayOffTournamentComponent и URRTournamentComponent
   
   ##### RandomizeWinners
 
-  Выбирает победителей случайным образом на каждом этапе.
-  
-  ##### PrintTournamentInfo
-  
-  Пишет в лог информацию о матчах турнира.
+  Выбирает победителей случайным образом на каждом этапе
   
   ##### SaveJson
   
@@ -89,6 +85,54 @@ UPlayOffTournamentComponent и URRTournamentComponent
  #### PlayOffTournamentComponent
  
   ##### GenerateNewTournament
-  Генерирует турнир и 
+  Генерирует турнир и возвращает информацию о нем. Для корректной генерации нужно послать массив id участников, массив очков рейтинга, длинна которого должна совпадать с длинной массива участиков, и выбрать один из типов генерации турнирной сетки.
+  
+  ##### типы генерации:
+  
+  RoundMethod - генерация турнирной сетки, в котором противники в каждом раунде меняются по кругу.
+  
+  BergerTables - генерация турнирной сетки методом "Berger Tables" (описание: https://en.wikipedia.org/wiki/Round-robin_tournament)
+ 
+ ##### GetAllMatchesInfo
+ 
+ Возвращает информацию о все матчах (номер матча; кто с кем сражается; состояние матча).
+ 
+ ##### виды состояния матча:
+ 
+ 1) Матч не окончен;
+ 2) Победил игрок с id...;
+ 3) Матч пропущен из-за наличия только одного игрока.
+ 
+ ##### GetWinStatistics
+ 
+ Возвращает информацию о игроках и количеством выйгранных ими матчами. Отсортированны в порядке убывания количества выйгранных матчей.
+ 
+ ##### GetAllMembersInfo
+ 
+ ##### GetMemberInfoByMemberIndex
+ 
+ ##### GetMatchInfoByMatchNumber
+ 
+ ##### SetAllWinners
+ 
+ ##### SetWinnerByMatchNumber
+ 
+ ##### SetAllRatingPoints
+  
+ ##### SetRatingPointsByMemberIndex
+ 
+ ##### DisqualificationByMemberIndex
+ 
+ ##### GetMatchesCount
+ 
+ ##### ChooseWinner
+ 
+ ##### IsOnePersonOnFirstPlace
+ 
+ ##### GenerateExtraMatches
+ 
+ ##### SaveJson
+ 
+ ##### LoadJson
  
 TO BE CONTINUED
