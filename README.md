@@ -82,5 +82,9 @@ UPlayOffTournamentComponent и URRTournamentComponent
   
   Загружает новые данные турнира из файла в формате json.
   
-  
+ #### PlayOffTournamentComponent
+ 
+  ##### GenerateNewTournament
+  Генерирует турнир и 
+ 
 TO BE CONTINUED
